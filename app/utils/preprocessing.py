@@ -1,5 +1,4 @@
 import numpy as np
-import sys
 from PIL import Image
 
 import warnings
@@ -13,9 +12,3 @@ def preprocessing(img):
     preprocessed_img = preprocessed_img.reshape(-1, 50, 50, 1)
 
     return preprocessed_img
-
-if __name__ == "__main__":
-    img = sys.argv[1]
-    result = preprocessing(img)
-    print("Processed image shape:", result.shape)
-

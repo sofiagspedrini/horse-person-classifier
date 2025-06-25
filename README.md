@@ -12,9 +12,17 @@ horse-person-classifier/
 │   └── utils/
 │       └── preprocessing.py     
 ├── Dataset/
+│   ├── Test   
+│       ├── horses/                
+│       └── humans/             
+│   └──  Train/
+│       ├── horses/                
+│       └── humans/  
 ├── notebooks/
 │   └── Experiments.ipynb  
-├── outputs/
+├── Results/
+│   ├── Part1/                
+│   └── Part2/   
 ├── README.md             
 └── requirements.txt                           
 ```          
@@ -48,4 +56,4 @@ python -m app.main
 curl.exe -X POST -F "file=@path/image.jpg" http://127.0.0.1:5000/predict 
 ```
 
-6. Test the API — it should return a JSON response indicating whether the image is a horse or a person.
+6. Check folder 

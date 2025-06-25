@@ -44,8 +44,6 @@ python -m app.main
 
 5. In other terminal, send a POST request to `/predict` with an image:
 
-## API Example
-
 ```bash
 curl.exe -X POST -F "file=@path/image.jpg" http://127.0.0.1:5000/predict 
 ```

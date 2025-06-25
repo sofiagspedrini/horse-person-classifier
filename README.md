@@ -56,4 +56,6 @@ python -m app.main
 curl.exe -X POST -F "file=@path/image.jpg" http://127.0.0.1:5000/predict 
 ```
 
-6. Check folder 
+## Project Explanations
+
+Plase check the folder Results for full discussion of the project developments and results.
